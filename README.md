@@ -1,5 +1,5 @@
 # Proyecto01-DS
-Se proporciona una forma interactiva de seleccionar, leer y procesar archivos CSV utilizando una interfaz gráfica de usuario (GUI). Utiliza la biblioteca pandasgui para mostrar datos, pandas para manejar datos y la biblioteca tkinter para los componentes de la GUI.
+Se proporciona una forma interactiva de seleccionar, leer y procesar archivos CSV utilizando una interfaz gráfica de usuario (GUI). Utiliza la librería `pandasgui` para mostrar datos, `pandas` para manejar datos y la biblioteca `tkinter` para los componentes de la GUI.
 
 ## PandasGUI
 PandasGUI es una interfaz gráfica de usuario para analizar datos en Python utilizando DataFrames de pandas. Proporciona una manera interactiva de visualizar y manipular datasets, facilitando el análisis de datos de forma más visual.
@@ -9,7 +9,7 @@ PandasGUI es una interfaz gráfica de usuario para analizar datos en Python util
 - **Creación de gráficos:** PandasGUI se inegra con matplotlib y seaborn para graficar directamente desde la interfaz. Esto permite seleccionar las variables que desean mostrarse para crear histogramas, diagramas de dispersión, gráficos de barras, gráficos circulares y más.
 - **Herramientas de análisis de datos:** Incluye herramientas para realizar análisis estadísticos comunes, como calcular medias, medianas, modas y otras estadísticas descriptivas.
 - **Queries:** Esta función permite a los usuarios construir queries arrastrando columnas a un constructor de queries, simplificando el proceso de filtrar y buscar a través de grandes conjuntos de datos.
-- **Generación de scripts:** A medida que se interactúa con la GUI, PandasGUI puede generar código Python que representa las transformaciones o análisis que se realicen.
+- **Generación de scripts:** A medida que se interactúa con la GUI, PandasGUI puede generar código que representa las transformaciones o análisis que se realicen.
 
 ## Características
 - **Selección de archivo:** Los usuarios pueden seleccionar un archivo CSV desde su sistema utilizando un diálogo de archivo. El archivo de ejemplo está nombrado como "penguins.csv"
@@ -26,7 +26,7 @@ PandasGUI es una interfaz gráfica de usuario para analizar datos en Python util
 - pandasgui
 - tkinter
 
-Instalar las bibliotecas usando pip:
+Instalar las librerías usando pip:
 `pip install pandas pandasgui`
 
 
