@@ -10,6 +10,8 @@ PandasGUI es una interfaz gráfica de usuario para analizar datos en Python util
 - **Herramientas de análisis de datos:** Incluye herramientas para realizar análisis estadísticos comunes, como calcular medias, medianas, modas y otras estadísticas descriptivas.
 - **Queries:** Esta función permite a los usuarios construir queries arrastrando columnas a un constructor de queries, simplificando el proceso de filtrar y buscar a través de grandes conjuntos de datos.
 - **Generación de scripts:** A medida que se interactúa con la GUI, PandasGUI puede generar código que representa las transformaciones o análisis que se realicen.
+- **Exportación de datos:** PandasGUI ofrece funcionalidades integradas para exportar DataFrames a varios formatos de archivo comúnmente utilizados. Además de exportar DataFrames a diferentes formatos de archivo, PandasGUI también permite guardar las gráficas creadas dentro de la interfaz. 
+
 
 ## Características
 - **Selección de archivo:** Los usuarios pueden seleccionar un archivo CSV desde su sistema utilizando un diálogo de archivo. El archivo de ejemplo está nombrado como "penguins.csv"
@@ -19,6 +21,7 @@ PandasGUI es una interfaz gráfica de usuario para analizar datos en Python util
   - Identifica y categoriza columnas basadas en los valores faltantes o desconocidos.
 - **Análisis de columnas:** Muestra un resumen de las columnas numéricas y categóricas, junto con información detallada sobre valores nulos o desconocidos.
 - **Visualización:** Utiliza "PandasGUI" para proporcionar una vista interactiva del DataFrame procesado, permitiendo una exploración específica de los datos.
+
 
 ## Requisitos
 - Python 3
